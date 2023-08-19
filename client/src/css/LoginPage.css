@@ -85,3 +85,18 @@
     background-color: #580052;
   }
   
+
+
+  .checkbox-error {
+    background-color: #ff0000;
+  }
+
+input[type="text"]{
+    color: #e1e1e1
+}
+input[type="password"]{
+    color: #e1e1e1
+}
+input[type="email"]{
+    color: #e1e1e1
+}
