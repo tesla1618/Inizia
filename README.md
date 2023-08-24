@@ -1,8 +1,8 @@
-# SeatFinder - Micro Event Ticket Booking
+# Inizia - Micro Event Ticket Booking
 
-SeatFinder is a micro event ticket booking system developed using Django and React. It simplifies the process of event ticket booking, offering a wide range of features to enhance user experience and event management.
+Inizia is a micro event ticket booking system developed using Django and React. It simplifies the process of event ticket booking, offering a wide range of features to enhance user experience and event management.
 
-![SeatFinder Screenshot](banner.png) 
+![Inizia Screenshot](banner.png) 
 
 ## Features
 
@@ -25,7 +25,7 @@ SeatFinder is a micro event ticket booking system developed using Django and Rea
 
 ## Getting Started
 
-To get started with SeatFinder, follow these steps:
+To get started with Inizia, follow these steps:
 
 ### Prerequisites
 
@@ -37,8 +37,8 @@ To get started with SeatFinder, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/seatfinder.git
-   cd seatfinder
+   git clone https://github.com/your-username/Inizia.git
+   cd Inizia
    ```
 
 2. Install backend dependencies:
@@ -64,11 +64,11 @@ To get started with SeatFinder, follow these steps:
    npm start
    ```
 
-5. Open your web browser and go to `http://localhost:8000` to access SeatFinder.
+5. Open your web browser and go to `http://localhost:8000` to access Inizia.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to SeatFinder, please follow these steps:
+Contributions are welcome! If you'd like to contribute to Inizia, please follow these steps:
 
 1. `Fork` the repository and create a new branch.
 2. Make your changes and test thoroughly.
