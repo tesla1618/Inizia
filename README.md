@@ -77,7 +77,7 @@ Contributions are welcome! If you'd like to contribute to Inizia, please follow 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU General Public v3.0 License.
 
 ## Dev Team
 
