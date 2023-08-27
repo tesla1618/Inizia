@@ -170,17 +170,35 @@
 }
 
 @-webkit-keyframes sfLinkAnimated {
-  0%{background-position:32% 0%}
-  50%{background-position:69% 100%}
-  100%{background-position:32% 0%}
+  0% {
+    background-position: 32% 0%;
+  }
+  50% {
+    background-position: 69% 100%;
+  }
+  100% {
+    background-position: 32% 0%;
+  }
 }
 @-moz-keyframes sfLinkAnimated {
-  0%{background-position:32% 0%}
-  50%{background-position:69% 100%}
-  100%{background-position:32% 0%}
+  0% {
+    background-position: 32% 0%;
+  }
+  50% {
+    background-position: 69% 100%;
+  }
+  100% {
+    background-position: 32% 0%;
+  }
 }
 @keyframes sfLinkAnimated {
-  0%{background-position:32% 0%}
-  50%{background-position:69% 100%}
-  100%{background-position:32% 0%}
+  0% {
+    background-position: 32% 0%;
+  }
+  50% {
+    background-position: 69% 100%;
+  }
+  100% {
+    background-position: 32% 0%;
+  }
 }

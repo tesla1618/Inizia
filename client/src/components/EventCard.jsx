@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import '../css/EventCard.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import "../css/EventCard.css";
+import { Link } from "react-router-dom";
 
 const truncateText = (text, maxLength) => {
   if (text.length > maxLength) {
-    return text.slice(0, maxLength) + '...';
+    return text.slice(0, maxLength) + "...";
   }
   return text;
 };
@@ -29,23 +29,25 @@ const EventCard = ({ imageSrc, title, location, date, entryFee, guests, buyTicke
             <i className="bi bi-calendar"></i>
             <span>{date}</span>
           </div>
-          { entryFee ? (<div className="event-info">
-            <i className="bi bi-currency-dollar"></i>
-            <span>{entryFee} BDT</span>
-          </div>) : (
+          {entryFee ? (
             <div className="event-info">
-            <i className="bi bi-currency-dollar"></i>
-            <span>Free of Cost</span>
-          </div>
+              <i className="bi bi-currency-dollar"></i>
+              <span>{entryFee} BDT</span>
+            </div>
+          ) : (
+            <div className="event-info">
+              <i className="bi bi-currency-dollar"></i>
+              <span>Free of Cost</span>
+            </div>
           )}
-          
+
           <div className="event-info">
             <i className="bi bi-person"></i>
             <span>{guests}</span>
           </div>
         </div>
         <Link key={eventID} to={buyTicketLink} eTags className="btn btn-gradient">
-          {entryFee ? 'Buy Ticket' : 'Register'}
+          {entryFee ? "Buy Ticket" : "Register"}
         </Link>
       </div>
     </div>
