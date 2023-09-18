@@ -26,6 +26,7 @@ router.register(r'events', EventViewSet)
 router.register(r'speakers', EventSpeakerViewSet)  # Create a custom viewset for EventSpeaker
 router.register(r'images', EventImageViewSet)
 router.register(r'attendances', EventAttendanceViewSet)
+# router.register(r'users', UserView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,6 +34,10 @@ urlpatterns = [
     path('api/events/<int:event_id>/speakers/', event_speakers_list, name='event_speakers_list'),
     path('api/events/<int:event_id>/images/', event_images_list, name='event_images_list'),
     path('api/events/<int:event_id>/attendances/', event_attendances_list, name='event_attendances_list'),
+    path('api/register/', UserRegister.as_view(), name='register'),
+	path('api/login/', UserLogin.as_view(), name='login'),
+	path('api/logout/', UserLogout.as_view(), name='logout'),
+	path('api/user/', UserView.as_view(), name='user'),
     # path('api/images/', views.image_list_api, name='image_list_api'),
 
 ]
