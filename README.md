@@ -79,13 +79,7 @@ Contributions are welcome! If you'd like to contribute to Inizia, please follow 
 
 This project is licensed under the GNU General Public v3.0 License.
 
-## Dev Team
-
-- [Rajieb Rojarieo](https://github.com/tesla1618)
-- [Mumtahina Ahmed](https://github.com/remesis)
-- [Nafiur Rahman](https://github.com/Nafiur01)
-- [Golam Rabbani Abir](https://github.com/Abir0606)
-
+-- Previously added Dev Team was Rigged and team members with zero contributions were added for getting good grades in the course... Course is over, so is the fakeness
 
 Initialized with pain by `FTS`
 
